@@ -1,12 +1,51 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/chart/chart"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "理性消费",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#2CB144",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "明细",
+        "iconPath": "assets/images/detail.jpg",
+        "selectedIconPath": "assets/images/detail.jpg"
+      },
+      {
+        "pagePath": "pages/chart/chart",
+        "text": "图表",
+        "iconPath": "assets/images/detail.jpg",
+        "selectedIconPath": "assets/images/detail.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "记账",
+        "iconPath": "assets/images/detail.jpg",
+        "selectedIconPath": "assets/images/detail.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "账单",
+        "iconPath": "assets/images/detail.jpg",
+        "selectedIconPath": "assets/images/detail.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "assets/images/detail.jpg",
+        "selectedIconPath": "assets/images/detail.jpg"
+      }
+    ]
   }
 }
